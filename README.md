@@ -244,8 +244,8 @@ Validation Images : 1,126
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Satellite-Image-Classification.git
-cd Satellite-Image-Classification
+git clone https://github.com/lokeshjakhar7781/Land-Cover-Classification-from-Satellite-Imagery.git
+cd Land-Cover-Classification-from-Satellite-Imagery
 ```
 
 ### 2. Install Dependencies
@@ -254,19 +254,7 @@ cd Satellite-Image-Classification
 pip install tensorflow numpy pandas matplotlib
 ```
 
-### 3. Add the Dataset
-
-Make sure the dataset is organized exactly as follows:
-
-```text
-data/
-├── cloudy/
-├── desert/
-├── water/
-└── green_area/
-```
-
-### 4. Run the Project
+### 3. Run the Project
 
 Open:
 
@@ -275,6 +263,7 @@ main.ipynb
 ```
 
 Run the notebook cells sequentially to load the dataset, preprocess the images, train the CNN, evaluate the model, and generate predictions.
+
 
 ---
 
